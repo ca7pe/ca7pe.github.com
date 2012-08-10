@@ -1,0 +1,97 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background: #eeeeee url('../images/bg.png') repeat-y center fixed;
+}
+#header, #content {
+	width: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#header {
+	height: 125px;
+}
+#logo {
+	float: left;
+	width: 331px;
+	height: 125px;
+	cursor: pointer;
+}
+#logo h1 {
+	display: none;
+}
+#logo_img {
+	position: relative;
+}
+li {
+	list-style-type: none;
+}
+
+/* --------- navigator ---------*/
+#nav {
+	float: right;
+	width: 420px;
+	margin: 80px 15px 0 0px;
+}
+#nav li{
+	display: inline;
+}
+#nav a {
+	display: block;
+	margin: 0 5px;
+	width: 60px;
+	padding: 6px;
+	float: left;
+	color: #7c7c7c;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 22px;
+}
+
+/* --------- content ---------*/
+.separator {
+	width: 1020px;
+	height: 1px;
+	margin: 0px auto;
+	background: url(../images/separator.png) center bottom repeat-x;
+}
+a {
+	outline: none;
+}
+/* --------- footer ---------*/
+#footer {
+	color: #ffffff;
+	width: 1100px;
+	height: 70px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	clear: both;
+	margin: 70px auto 0;
+	padding-top: 2px;
+	background: url(../images/footer.png) repeat-x;
+}
+#line_up {
+	margin-top: 13px;
+}
+#line_down {
+	margin-top: 9px;
+}
+#footer a{
+	color: #ffffff;
+	font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #656565;
+	text-decoration: underline;
+}
